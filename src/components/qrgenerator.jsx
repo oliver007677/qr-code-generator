@@ -8,7 +8,7 @@ export function Qrgenerator() {
 
     return (
         <div>
-            <h1 className="text-6xl text-center m-3">Generador de códigos QR</h1>
+            <h1 className="text-6xl text-center m-3">Generador de códigos QR de código abierto</h1>
             <div className="text-center m-5">
                 <input className="rounded-md border-2 w-sm m-5" placeholder='Aquí pon la URL a al que quieres que te lleve el QR' type="text" value={input} onChange={
                     (e) => setInput(e.target.value)
