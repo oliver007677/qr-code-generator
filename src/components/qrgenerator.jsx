@@ -18,7 +18,7 @@ export function Qrgenerator() {
                         setText(input)
                     } if (input == "") {
                         alert("Por favor, introduce una URL válida")
-                    } else {
+                    } if (!input.includes("http://") && !input.includes("https://") && input != "") {
                         setText("https://" + input)
                     }
                 }} className="rounded-md border-2 p-2 m-5 hover:bg-gray-200">
