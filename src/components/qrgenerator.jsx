@@ -4,7 +4,7 @@ import QRCode from "react-qr-code";
 
 export function Qrgenerator() {
     const [input, setInput] = useState('')
-    const [text, setText] = useState('https://reactjs.org')
+    const [text, setText] = useState('https://github.com/oliver007677/qr-code-generator')
 
     return (
         <div>
