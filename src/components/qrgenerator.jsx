@@ -63,7 +63,14 @@ export function Qrgenerator() {
                 </button>
             </div>
             <div className="text-center m-2.5">
-                <p>Si quieres saber más sobre el proyecto ve al <a className="text-blue-600 underline hover:text-purple-600" href="https://github.com/oliver007677/qr-code-generator">repositorio de github</a></p>
+                <p>Si quieres saber más sobre el proyecto ve al <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline hover:text-purple-600"
+                href="https://github.com/oliver007677/qr-code-generator">
+                    repositorio de github
+                    </a>
+                </p>
             </div>
         </div>
     )
